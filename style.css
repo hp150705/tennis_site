@@ -41,7 +41,11 @@ a {
 	font-family: 'Caveat', cursive;
 	font-size: 30px;
 }
-div#big {
+div.big {
 	margin: 50px auto ;
-	width: 600px
+	width: 600px;
+}
+div#image {
+	display: flex;
+	justify-content: space-around;
 }
